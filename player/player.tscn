@@ -4,15 +4,20 @@
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_kqu6x"]
 
-[node name="player" type="Node3D" unique_id=77307558]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_oul6g"]
+
+[node name="player" type="CharacterBody3D" unique_id=1194917113]
 script = ExtResource("1_oul6g")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=321695162]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 mesh = SubResource("CapsuleMesh_kqu6x")
 
-[node name="Camera3D" type="Camera3D" parent="MeshInstance3D" unique_id=689760500]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40114486, -0.5)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1315625757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_oul6g")
 
-[node name="RayCast3D" type="RayCast3D" parent="MeshInstance3D" unique_id=1585828951]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.401, 0)
+[node name="Camera3D" type="Camera3D" parent="." unique_id=689760500]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4011449, -0.5)
+current = true
+fov = 60.0
