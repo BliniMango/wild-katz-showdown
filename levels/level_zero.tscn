@@ -1,13 +1,47 @@
 [gd_scene format=3 uid="uid://cqycydc0oh0mw"]
 
+[ext_resource type="PackedScene" uid="uid://cxsl2df22as38" path="res://player/player.tscn" id="1_qk47b"]
+[ext_resource type="Shader" uid="uid://dj76m7fs6rfd5" path="res://shaders/custonsky.tres" id="2_5a2y2"]
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eofxv"]
 albedo_color = Color(0.33, 0.22715001, 0.049499992, 1)
 
 [sub_resource type="QuadMesh" id="QuadMesh_qk47b"]
 material = SubResource("StandardMaterial3D_eofxv")
 
+[sub_resource type="Gradient" id="Gradient_xkxm1"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0.44915253, 0.63559324, 1)
+colors = PackedColorArray(0.18206593, 0.44057378, 0.53371745, 1, 0.71629643, 0.71629614, 0.7162961, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_om1bo"]
+noise_type = 0
+frequency = 0.0163
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_f450l"]
+noise = SubResource("FastNoiseLite_om1bo")
+color_ramp = SubResource("Gradient_xkxm1")
+seamless = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b4n3a"]
+shader = ExtResource("2_5a2y2")
+shader_parameter/Texture2DParameter = SubResource("NoiseTexture2D_f450l")
+
+[sub_resource type="Sky" id="Sky_6jtup"]
+sky_material = SubResource("ShaderMaterial_b4n3a")
+
+[sub_resource type="Environment" id="Environment_i6g1h"]
+background_mode = 2
+sky = SubResource("Sky_6jtup")
+
 [node name="level_zero" type="Node3D" unique_id=1034265914]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=689103500]
 transform = Transform3D(100, 0, 0, 0, -4.371139e-06, 100, 0, -100, -4.371139e-06, 0, 0, 0)
 mesh = SubResource("QuadMesh_qk47b")
+
+[node name="player" parent="." unique_id=77307558 instance=ExtResource("1_qk47b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3904712, 0, -0.1535244)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1130232662]
+environment = SubResource("Environment_i6g1h")

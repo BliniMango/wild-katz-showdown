@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Wild Katz Showdown"
+run/main_scene="uid://cqycydc0oh0mw"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -23,7 +24,8 @@ enabled=PackedStringArray("res://addons/asset_placer/plugin.cfg")
 folder_colors={
 "res://enemies/": "red",
 "res://levels/": "yellow",
-"res://player/": "purple"
+"res://player/": "purple",
+"res://scripts/": "orange"
 }
 
 [physics]
