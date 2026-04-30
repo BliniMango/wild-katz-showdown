@@ -14,6 +14,18 @@ config/name="Wild Katz Showdown"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/asset_placer/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://enemies/": "red",
+"res://levels/": "yellow",
+"res://player/": "purple"
+}
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

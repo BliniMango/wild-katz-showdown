@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://cqycydc0oh0mw"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eofxv"]
+albedo_color = Color(0.33, 0.22715001, 0.049499992, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_qk47b"]
+material = SubResource("StandardMaterial3D_eofxv")
+
 [node name="level_zero" type="Node3D" unique_id=1034265914]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=689103500]
+transform = Transform3D(100, 0, 0, 0, -4.371139e-06, 100, 0, -100, -4.371139e-06, 0, 0, 0)
+mesh = SubResource("QuadMesh_qk47b")
