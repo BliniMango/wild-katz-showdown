@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://428t7u65yrce" path="res://assets/Low Poly Wild West/Modular/Floor & Roof/Roof A.fbx" id="10_n7nn6"]
 [ext_resource type="PackedScene" uid="uid://5tlwabxgdov1" path="res://assets/Low Poly Wild West/Modular/Doors/Door A.fbx" id="11_x87id"]
 
-[node name="Bank" type="Node3D" unique_id=1045622414]
+[node name="Bank" type="StaticBody3D" unique_id=1853877161]
 
 [node name="Foundation A" type="Node3D" parent="." unique_id=1998414911 instance=ExtResource("1_wci1p")]
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
@@ -69,7 +69,7 @@ metadata/asset_placer_res_id = "uid://bgixo51plpwet"
 transform = Transform3D(1.7136335e-07, 0, 1.0000007, 0, 1, 0, -1.0000007, 0, 1.7136335e-07, 0, 2.2459779, -1.5407146)
 metadata/asset_placer_res_id = "uid://bgixo51plpwet"
 
-[node name="@Node3D@86274" type="Node3D" parent="." unique_id=20968944 instance=ExtResource("4_xbtvk")]
+[node name="_Node3D_86274" type="Node3D" parent="." unique_id=20968944 instance=ExtResource("4_xbtvk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5098133, 2.2342412, 0)
 metadata/asset_placer_res_id = "uid://uafsd4u2u4po"
 
@@ -96,3 +96,7 @@ metadata/asset_placer_res_id = "uid://428t7u65yrce"
 [node name="Door A" type="Node3D" parent="." unique_id=957482891 instance=ExtResource("11_x87id")]
 transform = Transform3D(1.937151e-07, 0, 1.0000004, 0, 1, 0, -1.0000004, 0, 1.937151e-07, -3.7343278, 2.293767, 1.5084034)
 metadata/asset_placer_res_id = "uid://5tlwabxgdov1"
+
+[node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="." unique_id=475534589]
+transform = Transform3D(0.995, 0, 0, 0, 0.765, 0, 0, 0, 3.275, 0.418575, 0.857, -0.014790408)
+polygon = PackedVector2Array(-5.066627, -1.4742664, -2.3448002, -1.5446869, 1.2907, -1.5418462, 1.3862491, 4.7064123, -5.164666, 4.7409596)
