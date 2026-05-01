@@ -15,6 +15,17 @@ run/main_scene="uid://cqycydc0oh0mw"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[asset_placer]
+
+general/preview_material="res://addons/asset_placer/utils/preview_material.tres"
+general/plane_material="res://addons/asset_placer/ui/plane_preview/plane_preview_material.tres"
+general/asset_library_path="user://asset_library.json"
+
+[display]
+
+window/size/mode=3
+window/stretch/mode="canvas_items"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/asset_placer/plugin.cfg")
@@ -23,6 +34,7 @@ enabled=PackedStringArray("res://addons/asset_placer/plugin.cfg")
 
 folder_colors={
 "res://enemies/": "red",
+"res://environment/": "green",
 "res://levels/": "yellow",
 "res://player/": "purple",
 "res://scripts/": "orange"
@@ -67,4 +79,5 @@ quit={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
