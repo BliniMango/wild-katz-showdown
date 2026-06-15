@@ -180,7 +180,7 @@ shape = SubResource("ConcavePolygonShape3D_xkxm1")
 [node name="environment" type="Node" parent="." unique_id=1644754717]
 
 [node name="Bank" parent="environment" unique_id=1045622414 instance=ExtResource("3_xkxm1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25115, 0.028800547, -21.200836)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.25115, 0.26841694, -21.200836)
 
 [node name="player" type="Node" parent="." unique_id=733002326]
 
@@ -204,7 +204,7 @@ transform = Transform3D(1, 0, 0, 0, 0.18406427, 0, 0, 0, 1, -19.806774, 0.099999
 mesh = SubResource("BoxMesh_om1bo")
 
 [node name="gun_store" parent="spawn point" unique_id=459445621 instance=ExtResource("4_om1bo")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.615373, 0.0327785, -21.163786)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.615373, 0.28212023, -21.163786)
 
 [node name="saloon" parent="." unique_id=1968306275 instance=ExtResource("5_f450l")]
 transform = Transform3D(-0.028462425, 0, 0.99959487, 0, 1, 0, -0.99959487, 0, -0.028462425, -12.225282, 0.24774683, 2.6404982)

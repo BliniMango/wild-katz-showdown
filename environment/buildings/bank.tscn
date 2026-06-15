@@ -11,10 +11,12 @@
 [ext_resource type="PackedScene" uid="uid://rx4ri04c8fdm" path="res://assets/Low Poly Wild West/Modular/Balconies/Balcony With Railing A.fbx" id="8_xbtvk"]
 [ext_resource type="PackedScene" uid="uid://428t7u65yrce" path="res://assets/Low Poly Wild West/Modular/Floor & Roof/Roof A.fbx" id="10_n7nn6"]
 [ext_resource type="PackedScene" uid="uid://5tlwabxgdov1" path="res://assets/Low Poly Wild West/Modular/Doors/Door A.fbx" id="11_x87id"]
+[ext_resource type="PackedScene" uid="uid://xveb6en5lxba" path="res://assets/Low Poly Wild West/Modular/Stairs/Small Stairs.fbx" id="12_j75pk"]
 
 [node name="Bank" type="StaticBody3D" unique_id=1853877161]
 
 [node name="Foundation A" parent="." unique_id=1998414911 instance=ExtResource("1_wci1p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.666389, 0, 0, 0)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
 [node name="Window A" parent="." unique_id=40056481 instance=ExtResource("3_d1isv")]
@@ -38,7 +40,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9911375, 2.1680732, 0)
 metadata/asset_placer_res_id = "uid://cq3ordd3ljw3w"
 
 [node name="Foundation A (1)" parent="." unique_id=322409230 instance=ExtResource("1_wci1p")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.666389, -3, 0, 0)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
 [node name="Wall A (2)" parent="." unique_id=1003478561 instance=ExtResource("4_xbtvk")]
@@ -101,3 +103,7 @@ metadata/asset_placer_res_id = "uid://5tlwabxgdov1"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.418575, 0.857, -0.053119652)
 depth = 3.31
 polygon = PackedVector2Array(-5.066627, -1.4742664, 1.2907, -1.5418462, 1.3862491, 4.7064123, -5.164666, 4.7409596)
+
+[node name="Small Stairs" type="Node3D" parent="." unique_id=1314072035 instance=ExtResource("12_j75pk")]
+transform = Transform3D(-4.3711385e-08, 0, 1.8287942, 0, 1, 0, -0.9999999, 0, -7.993913e-08, 0.7427124, -0.28018302, 3.0945146)
+metadata/asset_placer_res_id = "uid://xveb6en5lxba"

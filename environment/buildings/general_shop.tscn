@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cci0io5po6efk"]
+
+[ext_resource type="PackedScene" uid="uid://bfikof0336a7v" path="res://assets/Low Poly Wild West/Modular/Floor & Roof/Foundation A.fbx" id="1_1atrd"]
+[ext_resource type="PackedScene" uid="uid://bcv4nn0onnr1p" path="res://assets/Low Poly Wild West/Modular/Walls/Small Door A.fbx" id="2_1jjd7"]
+[ext_resource type="PackedScene" uid="uid://bgixo51plpwet" path="res://assets/Low Poly Wild West/Modular/Walls/Window A.fbx" id="3_tcbht"]
+[ext_resource type="PackedScene" uid="uid://cqftcyy1hqo6n" path="res://assets/Low Poly Wild West/Modular/Walls/Small Wall A.fbx" id="4_tlb5u"]
+[ext_resource type="PackedScene" uid="uid://rs4ablh4w1je" path="res://assets/Low Poly Wild West/Modular/Doors/Door B.fbx" id="5_5m4xh"]
+[ext_resource type="PackedScene" uid="uid://xveb6en5lxba" path="res://assets/Low Poly Wild West/Modular/Stairs/Small Stairs.fbx" id="6_hi4ok"]
+[ext_resource type="PackedScene" uid="uid://dqrhvo7po56yt" path="res://assets/Low Poly Wild West/Modular/Signs/General Sign C.fbx" id="7_x02pr"]
+[ext_resource type="PackedScene" uid="uid://428t7u65yrce" path="res://assets/Low Poly Wild West/Modular/Floor & Roof/Roof A.fbx" id="8_tcbht"]
+
+[node name="general_shop" type="StaticBody3D" unique_id=1032948291]
+transform = Transform3D(2.6699595, 0, 0, 0, 1, 0, 0, 0, 2.1108403, 0, 0, 0)
+
+[node name="Foundation A" type="Node3D" parent="." unique_id=1998414911 instance=ExtResource("1_1atrd")]
+transform = Transform3D(0.9999999, 0, 0, 0, 0.9999998, 0, 0, 0, 1.1199827, 0, 0, 0.16534026)
+metadata/asset_placer_res_id = "uid://bfikof0336a7v"
+
+[node name="Small Door A" type="Node3D" parent="." unique_id=1254681745 instance=ExtResource("2_1jjd7")]
+transform = Transform3D(-1.6371553e-08, 0, 0.47374493, 0, 0.9999996, 0, -0.37453747, 0, -2.070805e-08, 1.2837303, 0, 1.2955565)
+metadata/asset_placer_res_id = "uid://bcv4nn0onnr1p"
+
+[node name="Window A" type="Node3D" parent="." unique_id=40056481 instance=ExtResource("3_tcbht")]
+transform = Transform3D(-1.6371553e-08, 0, -0.47374493, 0, 0.9999997, 0, 0.37453747, 0, -2.070805e-08, -0.88198525, 0, -1.6233289)
+metadata/asset_placer_res_id = "uid://bgixo51plpwet"
+
+[node name="Window A2" parent="." unique_id=484704253 instance=ExtResource("3_tcbht")]
+transform = Transform3D(-1.6371553e-08, 0, -0.47374493, 0, 0.99999964, 0, 0.37453747, 0, -2.070805e-08, 0.8926327, 0, -1.6233289)
+metadata/asset_placer_res_id = "uid://bgixo51plpwet"
+
+[node name="Window A (1)" type="Node3D" parent="." unique_id=362537688 instance=ExtResource("3_tcbht")]
+transform = Transform3D(0.37453747, 0, 0, 0, 0.9999997, 0, 0, 0, 0.9780436, -1.5967807, 0, -0.17055924)
+metadata/asset_placer_res_id = "uid://bgixo51plpwet"
+
+[node name="Window A (1)2" parent="." unique_id=576208163 instance=ExtResource("3_tcbht")]
+transform = Transform3D(0.37453747, 0, 0, 0, 0.9999995, 0, 0, 0, 0.9780436, 1.6191026, 0, -0.17055924)
+metadata/asset_placer_res_id = "uid://bgixo51plpwet"
+
+[node name="Window A (2)" type="Node3D" parent="." unique_id=1237573310 instance=ExtResource("3_tcbht")]
+transform = Transform3D(2.2324173e-08, 0, -0.862719, 0, 0.99999875, 0, 0.37453744, 0, 0, -0.32476804, 0, 1.2945731)
+metadata/asset_placer_res_id = "uid://bgixo51plpwet"
+
+[node name="Small Wall A" type="Node3D" parent="." unique_id=1262510090 instance=ExtResource("4_tlb5u")]
+transform = Transform3D(-1.6371551e-08, 0, -0.31009117, 0, 0.9999995, 0, 0.37453744, 0, -1.3554518e-08, -0.017610783, 0, -1.6221406)
+metadata/asset_placer_res_id = "uid://cqftcyy1hqo6n"
+
+[node name="Door B" type="Node3D" parent="." unique_id=1532656050 instance=ExtResource("5_5m4xh")]
+transform = Transform3D(-1.6371553e-08, 0, 0.47374493, 0, 0.9999994, 0, -0.37453747, 0, -2.070805e-08, 1.2856904, 0.041535493, 1.3217129)
+metadata/asset_placer_res_id = "uid://rs4ablh4w1je"
+
+[node name="Small Stairs (1)" type="Node3D" parent="." unique_id=2013940708 instance=ExtResource("6_hi4ok")]
+transform = Transform3D(-1.6371551e-08, 0, 0.47374493, 0, 0.9999994, 0, -0.37453744, 0, -2.0708049e-08, 1.2889106, -0.29835746, 2.1294122)
+metadata/asset_placer_res_id = "uid://xveb6en5lxba"
+
+[node name="General Sign C" type="Node3D" parent="." unique_id=861162224 instance=ExtResource("7_x02pr")]
+transform = Transform3D(-1.6315443e-08, 0.032600567, 0.19375825, 1.3542749e-09, 0.39275077, -0.016083041, -0.3745375, 0, -8.498571e-09, 0, 2.0203876, 1.3595098)
+metadata/asset_placer_res_id = "uid://dqrhvo7po56yt"
+
+[node name="Roof A" type="Node3D" parent="." unique_id=198349570 instance=ExtResource("8_tcbht")]
+transform = Transform3D(0.9846315, 0, 0, 0, 0.99999934, 0, 0, 0, 0.9088663, 0.009079688, 2.1052532, -0.11760117)
+metadata/asset_placer_res_id = "uid://428t7u65yrce"

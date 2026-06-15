@@ -50,15 +50,15 @@ transform = Transform3D(2.30968e-07, 0, 1.0000005, 0, 1, 0, -1.0000005, 0, 2.309
 metadata/asset_placer_res_id = "uid://bc0dmucv04l4t"
 
 [node name="Foundation C (2)" parent="." unique_id=657366739 instance=ExtResource("2_yo32c")]
-transform = Transform3D(-1.000003, 0, -2.5331974e-07, 0, 1, 0, 2.5331974e-07, 0, -1.000003, 5.4890547, 0, 0.24357307)
+transform = Transform3D(-1.1794244, 0, -2.5331974e-07, 0, 1, 0, 2.987706e-07, 0, -1.000003, 5.4890547, 0, 0.24357307)
 metadata/asset_placer_res_id = "uid://bc0dmucv04l4t"
 
 [node name="Foundation A (6)" parent="." unique_id=878408730 instance=ExtResource("1_i4s5r")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3059278, 0, -3)
+transform = Transform3D(1.1176088, 0, 0, 0, 1, 0, 0, 0, 1, -6.3059278, 0, -3)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
 [node name="Foundation A (7)" parent="." unique_id=515575392 instance=ExtResource("1_i4s5r")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.299162, 0, -3)
+transform = Transform3D(1.2582635, 0, 0, 0, 1, 0, 0, 0, 1.1475056, 6.299162, 0, -2.8909297)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
 [node name="Foundation A (8)" parent="." unique_id=555100101 instance=ExtResource("1_i4s5r")]
@@ -229,58 +229,58 @@ metadata/asset_placer_res_id = "uid://cq3ordd3ljw3w"
 transform = Transform3D(5.151907, 0, 0, 0, 1, 0, 0, 0, 1.0843387, -0.02770257, 2.0380404, -2.823287)
 metadata/asset_placer_res_id = "uid://cq3ordd3ljw3w"
 
-[node name="Foundation A (11)" type="Node3D" parent="." unique_id=756143132 instance=ExtResource("1_i4s5r")]
+[node name="Foundation A (11)" parent="." unique_id=756143132 instance=ExtResource("1_i4s5r")]
 transform = Transform3D(0.54753125, 0, 0.83678526, 0, 1, 0, -0.83678526, 0, 0.54753125, -5.0244975, 0, 1.374125)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
-[node name="Foundation A (12)" type="Node3D" parent="." unique_id=375678596 instance=ExtResource("1_i4s5r")]
+[node name="Foundation A (12)" parent="." unique_id=375678596 instance=ExtResource("1_i4s5r")]
 transform = Transform3D(-0.24296813, 0, 0.9700343, 0, 1, 0, -0.9700343, 0, -0.24296813, -6.0981593, -4.7683716e-07, -0.18266414)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
-[node name="Foundation A (13)" type="Node3D" parent="." unique_id=1995761793 instance=ExtResource("1_i4s5r")]
+[node name="Foundation A (13)" parent="." unique_id=1995761793 instance=ExtResource("1_i4s5r")]
 transform = Transform3D(-0.8938183, 0, -0.4484309, 0, 1, 0, 0.4484309, 0, -0.8938183, 5.3651347, 0, 1.399605)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
-[node name="Foundation A (14)" type="Node3D" parent="." unique_id=1571496409 instance=ExtResource("1_i4s5r")]
-transform = Transform3D(-0.23101744, 0, -0.97295076, 0, 1, 0, 0.97295076, 0, -0.23101744, 6.376017, 0, 0.13218355)
+[node name="Foundation A (14)" parent="." unique_id=1571496409 instance=ExtResource("1_i4s5r")]
+transform = Transform3D(-0.23101744, 0, -0.97295076, 0, 1, 0, 0.97295076, 0, -0.23101744, 6.3724546, 0, 0.14718765)
 metadata/asset_placer_res_id = "uid://bfikof0336a7v"
 
-[node name="Small Stairs" type="Node3D" parent="." unique_id=1314072035 instance=ExtResource("12_jhlr7")]
+[node name="Small Stairs" parent="." unique_id=1314072035 instance=ExtResource("12_jhlr7")]
 transform = Transform3D(1.1175871e-07, 0, 5.412276, 0, 1, 0, -1.0000007, 0, 6.0486855e-07, -0.020322084, -0.29545492, 3.9628162)
 metadata/asset_placer_res_id = "uid://xveb6en5lxba"
 
-[node name="Balcony With Railing A" type="Node3D" parent="." unique_id=1528979684 instance=ExtResource("13_u5y0i")]
+[node name="Balcony With Railing A" parent="." unique_id=1528979684 instance=ExtResource("13_u5y0i")]
 transform = Transform3D(1.6391277e-07, 0, 2.94416, 0, 1.185921, 0, -1.1859213, 0, 4.069287e-07, -0.16227598, 2.1975355, 2.8663619)
 metadata/asset_placer_res_id = "uid://rx4ri04c8fdm"
 
-[node name="Saloon Door" type="Node3D" parent="." unique_id=1882830442 instance=ExtResource("14_ij12t")]
+[node name="Saloon Door" parent="." unique_id=1882830442 instance=ExtResource("14_ij12t")]
 transform = Transform3D(1.5646219e-07, 0, -1.0000005, 0, 1, 0, 1.0000005, 0, 1.5646219e-07, 0.346643, 0.36257845, 1.9108772)
 metadata/asset_placer_res_id = "uid://ck4m1xcxxuuqp"
 
-[node name="Saloon Door (1)" type="Node3D" parent="." unique_id=1217002292 instance=ExtResource("14_ij12t")]
+[node name="Saloon Door (1)" parent="." unique_id=1217002292 instance=ExtResource("14_ij12t")]
 transform = Transform3D(2.2351742e-08, 0, 1.0000017, 0, 1, 0, -1.0000017, 0, 2.2351742e-08, -0.33531743, 0.36257845, 1.9092495)
 metadata/asset_placer_res_id = "uid://ck4m1xcxxuuqp"
 
-[node name="Door A" type="Node3D" parent="." unique_id=957482891 instance=ExtResource("15_v21eq")]
+[node name="Door A" parent="." unique_id=957482891 instance=ExtResource("15_v21eq")]
 transform = Transform3D(2.0116568e-07, 0, -1.5501221, 0, 1, 0, 1.0000007, 0, 3.1183114e-07, 0.00037131933, 2.2424338, 1.94489)
 metadata/asset_placer_res_id = "uid://5tlwabxgdov1"
 
-[node name="Saloon Sign B" type="Node3D" parent="." unique_id=859772514 instance=ExtResource("16_idhns")]
+[node name="Saloon Sign B" parent="." unique_id=859772514 instance=ExtResource("16_idhns")]
 transform = Transform3D(2.1606684e-07, 0, 1.0000008, 0, 1, 0, -1.0000008, 0, 2.1606684e-07, 0.0024362777, 4.376039, 2.1093435)
 metadata/asset_placer_res_id = "uid://cswuyl2giik3g"
 
-[node name="Roof A" type="Node3D" parent="." unique_id=198349570 instance=ExtResource("17_1q71x")]
+[node name="Roof A" parent="." unique_id=198349570 instance=ExtResource("17_1q71x")]
 transform = Transform3D(4.8262563, 0, 0, 0, 1, 0, 0, 0, 1.0738227, -0.09828306, 4.242088, -2.8597107)
 metadata/asset_placer_res_id = "uid://428t7u65yrce"
 
-[node name="Roof A (1)" type="Node3D" parent="." unique_id=921529138 instance=ExtResource("17_1q71x")]
+[node name="Roof A (1)" parent="." unique_id=921529138 instance=ExtResource("17_1q71x")]
 transform = Transform3D(2.8318045, 0, 0, 0, 1, 0, 0, 0, 1, -0.049245715, 4.239031, 0.29160595)
 metadata/asset_placer_res_id = "uid://428t7u65yrce"
 
-[node name="Roof D" type="Node3D" parent="." unique_id=1866646950 instance=ExtResource("18_hcw7a")]
+[node name="Roof D" parent="." unique_id=1866646950 instance=ExtResource("18_hcw7a")]
 transform = Transform3D(-0.0017977078, 0, -0.9999984, 0, 1, 0, 0.9999984, 0, -0.0017977078, -5.93502, 4.2385216, -0.0466575)
 metadata/asset_placer_res_id = "uid://chaxtju4rx1ro"
 
-[node name="Roof D (1)" type="Node3D" parent="." unique_id=782066131 instance=ExtResource("18_hcw7a")]
+[node name="Roof D (1)" parent="." unique_id=782066131 instance=ExtResource("18_hcw7a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.887098, 4.2188745, -0.032170773)
 metadata/asset_placer_res_id = "uid://chaxtju4rx1ro"
